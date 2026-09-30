@@ -23,7 +23,7 @@ div {
     background-color: var(--color-gray-800);
     color: var(--color-light);
     text-align: center;
-    width: 100%;
+    width: 50%;
     margin: 30px auto;
     padding-block: 20px;
     border-radius: 15px;
@@ -68,15 +68,34 @@ ul,ol {
     list-style: none;
 }
 
+li{
+    background-color: var(--color-gray-700);
+    margin-block: 16px;
+    margin-inline: auto;
+    
+    width:80%;
+    border-radius: 10px;
+    
+}
+
 a {
     color: var(--color-light);
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
+    background-color:#141414;
+    display: block;
+    padding-block: 16px;
+    border-radius: 10px;
+
+    transition: .5s;
+    
 }
 
 a:hover {
-    color: var(--color-green-300);
+    background-color: var(--color-green-300);
+    color: #1f1f1f;
+    letter-spacing: 2px;
 }
 
 a:active {
